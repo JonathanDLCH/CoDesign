@@ -28,6 +28,7 @@ a:hover {
   display: flex;
   justify-content:space-around;
   list-style: none;
+  padding: 0;
 }
 
 #tsparticles {
@@ -41,12 +42,17 @@ a:hover {
 }
 
 #title {
+  /*
   position:absolute;
   top: 10%;
   margin-top: -48px;
   padding: 12rem;
   width: 100%;
   height: 96px;
+  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #links{
@@ -61,4 +67,8 @@ h1 {
   color: #fff !important;
   font-size: 8rem;
   text-align: center;
+}
+
+#logo-principal{
+  margin-top: 100px;
 }
