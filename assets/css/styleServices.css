@@ -154,3 +154,20 @@ hr{
 .about-us p{
   text-align: center;
 }
+
+.profile{
+  width: 250px;
+}
+
+/*Responsive Design*/
+@media (max-width: 1040px){
+  section{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px){
+  section{
+    flex-direction: column;
+  }
+}
