@@ -21,7 +21,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color:#00ffff;
+  color:#ff00ff;
   /*font-weight: bold;
   /*text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;*/
 }
@@ -80,6 +80,7 @@ h1 {
   a{
     font-size: 5rem;
     display: block;
+    margin: 20px auto;
   }
 
   .align-row{
@@ -88,7 +89,7 @@ h1 {
 
   #links{
     position: relative;
-    margin-top: 8rem;
+    margin-top: 20rem;
     width: 100%;
   }
 }
@@ -97,6 +98,7 @@ h1 {
   a{
     font-size: 5rem;
     display: block;
+    margin: 10px auto;
   }
 
   .align-row{
@@ -105,7 +107,7 @@ h1 {
 
   #links{
     position: relative;
-    margin-top: 8rem;
+    margin-top: 20rem;
     width: 100%;
   }
 }
